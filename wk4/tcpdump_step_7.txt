@@ -1,0 +1,184 @@
+root@COMP3134-2025:~# tcpdump -r 0001.pcap
+reading from file 0001.pcap, link-type EN10MB (Ethernet), snapshot length 262144
+20:46:37.417606 IP COMP3134-2025.ssh > 162.243.188.66.11788: Flags [P.], seq 1732238276:1732238340, ack 3081666168, win 501, options [nop,nop,TS val 3964576690 ecr 3082532620], length 64
+20:46:37.417660 IP COMP3134-2025.ssh > 162.243.188.66.11788: Flags [P.], seq 64:144, ack 1, win 501, options [nop,nop,TS val 3964576690 ecr 3082532620], length 80
+20:46:37.417703 IP COMP3134-2025.ssh > 162.243.188.66.11788: Flags [P.], seq 144:224, ack 1, win 501, options [nop,nop,TS val 3964576690 ecr 3082532620], length 80
+20:46:37.417736 IP COMP3134-2025.ssh > 162.243.188.66.11788: Flags [P.], seq 224:304, ack 1, win 501, options [nop,nop,TS val 3964576690 ecr 3082532620], length 80
+20:46:37.417765 IP COMP3134-2025.ssh > 162.243.188.66.11788: Flags [P.], seq 304:368, ack 1, win 501, options [nop,nop,TS val 3964576690 ecr 3082532620], length 64
+20:46:37.428360 IP 162.243.188.66.11788 > COMP3134-2025.ssh: Flags [.], ack 0, win 4978, options [nop,nop,TS val 3082532637 ecr 3964576687], length 0
+20:46:37.431765 IP 162.243.188.66.11788 > COMP3134-2025.ssh: Flags [.], ack 64, win 4978, options [nop,nop,TS val 3082532640 ecr 3964576690], length 0
+20:46:37.431808 IP 162.243.188.66.11788 > COMP3134-2025.ssh: Flags [.], ack 144, win 4978, options [nop,nop,TS val 3082532640 ecr 3964576690], length 0
+20:46:37.431834 IP 162.243.188.66.11788 > COMP3134-2025.ssh: Flags [.], ack 224, win 4978, options [nop,nop,TS val 3082532640 ecr 3964576690], length 0
+20:46:37.431843 IP 162.243.188.66.11788 > COMP3134-2025.ssh: Flags [.], ack 304, win 4978, options [nop,nop,TS val 3082532640 ecr 3964576690], length 0
+20:46:37.431853 IP 162.243.188.66.11788 > COMP3134-2025.ssh: Flags [.], ack 368, win 4978, options [nop,nop,TS val 3082532640 ecr 3964576690], length 0
+20:46:39.394386 IP 167.94.146.43.20148 > COMP3134-2025.25953: Flags [S], seq 4222175469, win 42340, options [mss 1460,sackOK,TS val 1738441061 ecr 0,nop,wscale 10], length 0
+20:46:45.717790 IP 52.169.25.196.39274 > COMP3134-2025.ssh: Flags [S], seq 2674823286, win 64240, options [mss 1440,sackOK,TS val 2389144965 ecr 0,nop,wscale 7], length 0
+20:46:45.717884 IP COMP3134-2025.ssh > 52.169.25.196.39274: Flags [S.], seq 237186779, ack 2674823287, win 65160, options [mss 1460,sackOK,TS val 241737856 ecr 2389144965,nop,wscale 7], length 0
+20:46:45.799495 IP 52.169.25.196.39274 > COMP3134-2025.ssh: Flags [.], ack 1, win 502, options [nop,nop,TS val 2389145047 ecr 241737856], length 0
+20:46:45.809704 IP COMP3134-2025.ssh > 52.169.25.196.39274: Flags [P.], seq 1:43, ack 1, win 510, options [nop,nop,TS val 241737948 ecr 2389145047], length 42: SSH: SSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.10
+20:46:45.892989 IP 52.169.25.196.39274 > COMP3134-2025.ssh: Flags [.], ack 43, win 502, options [nop,nop,TS val 2389145140 ecr 241737948], length 0
+20:46:46.142069 IP 52.169.25.196.39274 > COMP3134-2025.ssh: Flags [P.], seq 1:13, ack 43, win 502, options [nop,nop,TS val 2389145390 ecr 241737948], length 12: SSH: SSH-2.0-Go
+20:46:46.142070 IP 52.169.25.196.39274 > COMP3134-2025.ssh: Flags [P.], seq 13:1133, ack 43, win 502, options [nop,nop,TS val 2389145390 ecr 241737948], length 1120
+20:46:46.142141 IP COMP3134-2025.ssh > 52.169.25.196.39274: Flags [.], ack 13, win 510, options [nop,nop,TS val 241738281 ecr 2389145390], length 0
+20:46:46.142162 IP COMP3134-2025.ssh > 52.169.25.196.39274: Flags [.], ack 1133, win 502, options [nop,nop,TS val 241738281 ecr 2389145390], length 0
+20:46:46.144017 IP COMP3134-2025.ssh > 52.169.25.196.39274: Flags [P.], seq 43:1155, ack 1133, win 502, options [nop,nop,TS val 241738283 ecr 2389145390], length 1112
+20:46:46.229392 IP 52.169.25.196.39274 > COMP3134-2025.ssh: Flags [.], ack 1155, win 524, options [nop,nop,TS val 2389145478 ecr 241738283], length 0
+20:46:46.295098 IP 52.169.25.196.39274 > COMP3134-2025.ssh: Flags [P.], seq 1133:1181, ack 1155, win 524, options [nop,nop,TS val 2389145543 ecr 241738283], length 48
+20:46:46.299955 IP COMP3134-2025.ssh > 52.169.25.196.39274: Flags [P.], seq 1155:1759, ack 1181, win 502, options [nop,nop,TS val 241738438 ecr 2389145543], length 604
+20:46:46.379133 IP 52.169.25.196.39274 > COMP3134-2025.ssh: Flags [.], ack 1759, win 541, options [nop,nop,TS val 2389145627 ecr 241738438], length 0
+20:46:46.415525 IP 52.169.25.196.39274 > COMP3134-2025.ssh: Flags [P.], seq 1181:1197, ack 1759, win 541, options [nop,nop,TS val 2389145664 ecr 241738438], length 16
+20:46:46.415526 IP 52.169.25.196.39274 > COMP3134-2025.ssh: Flags [P.], seq 1197:1249, ack 1759, win 541, options [nop,nop,TS val 2389145664 ecr 241738438], length 52
+20:46:46.415632 IP COMP3134-2025.ssh > 52.169.25.196.39274: Flags [.], ack 1249, win 502, options [nop,nop,TS val 241738554 ecr 2389145664], length 0
+20:46:46.415731 IP COMP3134-2025.ssh > 52.169.25.196.39274: Flags [P.], seq 1759:1811, ack 1249, win 502, options [nop,nop,TS val 241738554 ecr 2389145664], length 52
+20:46:46.497792 IP 52.169.25.196.39274 > COMP3134-2025.ssh: Flags [P.], seq 1249:1317, ack 1811, win 541, options [nop,nop,TS val 2389145746 ecr 241738554], length 68
+20:46:46.519665 IP COMP3134-2025.ssh > 52.169.25.196.39274: Flags [P.], seq 1811:1863, ack 1317, win 502, options [nop,nop,TS val 241738658 ecr 2389145746], length 52
+20:46:46.615621 IP 52.169.25.196.39274 > COMP3134-2025.ssh: Flags [P.], seq 1317:1401, ack 1863, win 541, options [nop,nop,TS val 2389145864 ecr 241738658], length 84
+20:46:46.658024 IP COMP3134-2025.ssh > 52.169.25.196.39274: Flags [.], ack 1401, win 502, options [nop,nop,TS val 241738797 ecr 2389145864], length 0
+20:46:49.378152 IP COMP3134-2025.ssh > 52.169.25.196.39274: Flags [P.], seq 1863:1915, ack 1401, win 502, options [nop,nop,TS val 241741517 ecr 2389145864], length 52
+20:46:49.463626 IP 52.169.25.196.39274 > COMP3134-2025.ssh: Flags [F.], seq 1401, ack 1915, win 541, options [nop,nop,TS val 2389148712 ecr 241741517], length 0
+20:46:49.464948 IP COMP3134-2025.ssh > 52.169.25.196.39274: Flags [F.], seq 1915, ack 1402, win 502, options [nop,nop,TS val 241741603 ecr 2389148712], length 0
+20:46:49.545256 IP 52.169.25.196.39274 > COMP3134-2025.ssh: Flags [.], ack 1916, win 541, options [nop,nop,TS val 2389148793 ecr 241741603], length 0
+20:46:52.547533 IP 162.243.188.66.11788 > COMP3134-2025.ssh: Flags [.], ack 368, win 4978, options [nop,nop,TS val 3082547755 ecr 3964576690], length 0
+20:46:52.547588 IP COMP3134-2025.ssh > 162.243.188.66.11788: Flags [.], ack 1, win 501, options [nop,nop,TS val 3964591820 ecr 3082532640], length 0
+20:46:52.801089 IP 118.149.216.162.bc.googleusercontent.com.54528 > COMP3134-2025.22083: Flags [S], seq 2003375415, win 65535, options [mss 1460], length 0
+20:46:54.202492 IP recyber.net.53811 > COMP3134-2025.11078: Flags [S], seq 821821463, win 1025, options [mss 1460], length 0
+20:46:58.160273 IP 112.196.28.139.48570 > COMP3134-2025.ssh: Flags [S], seq 3754341047, win 64240, options [mss 1460,sackOK,TS val 293951308 ecr 0,nop,wscale 7], length 0
+20:46:58.160347 IP COMP3134-2025.ssh > 112.196.28.139.48570: Flags [S.], seq 18224773, ack 3754341048, win 65160, options [mss 1460,sackOK,TS val 2293001468 ecr 293951308,nop,wscale 7], length 0
+20:46:58.402579 IP 112.196.28.139.48570 > COMP3134-2025.ssh: Flags [.], ack 1, win 502, options [nop,nop,TS val 293951551 ecr 2293001468], length 0
+20:46:58.402579 IP 112.196.28.139.48570 > COMP3134-2025.ssh: Flags [P.], seq 1:23, ack 1, win 502, options [nop,nop,TS val 293951551 ecr 2293001468], length 22: SSH: SSH-2.0-libssh_0.9.6
+20:46:58.402668 IP COMP3134-2025.ssh > 112.196.28.139.48570: Flags [.], ack 23, win 509, options [nop,nop,TS val 2293001710 ecr 293951551], length 0
+20:46:58.413768 IP COMP3134-2025.ssh > 112.196.28.139.48570: Flags [P.], seq 1:43, ack 23, win 509, options [nop,nop,TS val 2293001721 ecr 293951551], length 42: SSH: SSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.10
+20:46:58.655513 IP 112.196.28.139.48570 > COMP3134-2025.ssh: Flags [.], ack 43, win 502, options [nop,nop,TS val 293951804 ecr 2293001721], length 0
+20:46:58.655569 IP COMP3134-2025.ssh > 112.196.28.139.48570: Flags [P.], seq 43:1155, ack 23, win 509, options [nop,nop,TS val 2293001963 ecr 293951804], length 1112
+20:46:58.656224 IP 112.196.28.139.48570 > COMP3134-2025.ssh: Flags [P.], seq 23:999, ack 43, win 502, options [nop,nop,TS val 293951805 ecr 2293001721], length 976
+20:46:58.698323 IP COMP3134-2025.ssh > 112.196.28.139.48570: Flags [.], ack 999, win 502, options [nop,nop,TS val 2293002006 ecr 293951805], length 0
+20:46:58.938223 IP 112.196.28.139.48570 > COMP3134-2025.ssh: Flags [.], ack 1155, win 501, options [nop,nop,TS val 293952087 ecr 2293001963], length 0
+20:46:58.940014 IP 112.196.28.139.48570 > COMP3134-2025.ssh: Flags [P.], seq 999:1047, ack 1155, win 501, options [nop,nop,TS val 293952088 ecr 2293002006], length 48
+20:46:58.940054 IP COMP3134-2025.ssh > 112.196.28.139.48570: Flags [.], ack 1047, win 502, options [nop,nop,TS val 2293002248 ecr 293952088], length 0
+20:46:58.946398 IP COMP3134-2025.ssh > 112.196.28.139.48570: Flags [P.], seq 1155:1687, ack 1047, win 502, options [nop,nop,TS val 2293002254 ecr 293952088], length 532
+20:46:59.188071 IP 112.196.28.139.48570 > COMP3134-2025.ssh: Flags [.], ack 1687, win 501, options [nop,nop,TS val 293952336 ecr 2293002254], length 0
+20:46:59.188218 IP 112.196.28.139.48570 > COMP3134-2025.ssh: Flags [P.], seq 1047:1063, ack 1687, win 501, options [nop,nop,TS val 293952337 ecr 2293002254], length 16
+20:46:59.230047 IP COMP3134-2025.ssh > 112.196.28.139.48570: Flags [.], ack 1063, win 502, options [nop,nop,TS val 2293002538 ecr 293952337], length 0
+20:46:59.471961 IP 112.196.28.139.48570 > COMP3134-2025.ssh: Flags [P.], seq 1063:1115, ack 1687, win 501, options [nop,nop,TS val 293952620 ecr 2293002538], length 52
+20:46:59.472028 IP COMP3134-2025.ssh > 112.196.28.139.48570: Flags [.], ack 1115, win 502, options [nop,nop,TS val 2293002780 ecr 293952620], length 0
+20:46:59.472178 IP COMP3134-2025.ssh > 112.196.28.139.48570: Flags [P.], seq 1687:1739, ack 1115, win 502, options [nop,nop,TS val 2293002780 ecr 293952620], length 52
+20:46:59.713879 IP 112.196.28.139.48570 > COMP3134-2025.ssh: Flags [P.], seq 1115:1199, ack 1739, win 501, options [nop,nop,TS val 293952862 ecr 2293002780], length 84
+20:46:59.754030 IP COMP3134-2025.ssh > 112.196.28.139.48570: Flags [.], ack 1199, win 502, options [nop,nop,TS val 2293003062 ecr 293952862], length 0
+20:47:01.318491 IP 95.210.203.35.bc.googleusercontent.com.50059 > COMP3134-2025.10398: Flags [S], seq 2588905112, win 65535, options [mss 1460], length 0
+20:47:01.463834 IP COMP3134-2025.ssh > 112.196.28.139.48570: Flags [P.], seq 1739:1791, ack 1199, win 502, options [nop,nop,TS val 2293004771 ecr 293952862], length 52
+20:47:01.705664 IP 112.196.28.139.48570 > COMP3134-2025.ssh: Flags [P.], seq 1199:1251, ack 1791, win 501, options [nop,nop,TS val 293954854 ecr 2293004771], length 52
+20:47:01.705664 IP 112.196.28.139.48570 > COMP3134-2025.ssh: Flags [F.], seq 1251, ack 1791, win 501, options [nop,nop,TS val 293954854 ecr 2293004771], length 0
+20:47:01.705740 IP COMP3134-2025.ssh > 112.196.28.139.48570: Flags [.], ack 1251, win 502, options [nop,nop,TS val 2293005013 ecr 293954854], length 0
+20:47:01.707509 IP COMP3134-2025.ssh > 112.196.28.139.48570: Flags [F.], seq 1791, ack 1252, win 502, options [nop,nop,TS val 2293005015 ecr 293954854], length 0
+20:47:01.949267 IP 112.196.28.139.48570 > COMP3134-2025.ssh: Flags [.], ack 1792, win 501, options [nop,nop,TS val 293955098 ecr 2293005015], length 0
+20:47:05.254708 IP routeoptimizer.noc.liquidweb.com > COMP3134-2025: ICMP echo request, id 28936, seq 26633, length 48
+20:47:05.254770 IP COMP3134-2025 > routeoptimizer.noc.liquidweb.com: ICMP echo reply, id 28936, seq 26633, length 48
+20:47:05.466490 IP 67.43.14.13 > COMP3134-2025: ICMP echo request, id 11331, seq 26922, length 48
+20:47:05.466544 IP COMP3134-2025 > 67.43.14.13: ICMP echo reply, id 11331, seq 26922, length 48
+20:47:05.654589 IP routeoptimizer.noc.liquidweb.com.28777 > COMP3134-2025.33434: UDP, length 40
+20:47:05.867075 IP 67.43.14.13.63451 > COMP3134-2025.33434: UDP, length 40
+20:47:05.969605 IP security.criminalip.com.39748 > COMP3134-2025.1982: Flags [S], seq 2309895304, win 65535, options [mss 1460], length 0
+20:47:06.727642 IP routeoptimizer.noc.liquidweb.com.28996 > COMP3134-2025.33434: Flags [S], seq 0:30, win 14600, options [mss 1460,sackOK,nop,wscale 7,eol], length 30
+20:47:06.815666 IP 67.43.14.13.27114 > COMP3134-2025.33434: Flags [S], seq 0:30, win 14600, options [mss 1460,sackOK,nop,wscale 7,eol], length 30
+20:47:07.655631 IP 162.243.188.66.11788 > COMP3134-2025.ssh: Flags [.], ack 368, win 4978, options [nop,nop,TS val 3082562863 ecr 3964591820], length 0
+20:47:07.655688 IP COMP3134-2025.ssh > 162.243.188.66.11788: Flags [.], ack 1, win 501, options [nop,nop,TS val 3964606928 ecr 3082532640], length 0
+20:47:18.932680 IP 52.169.25.196.46308 > COMP3134-2025.ssh: Flags [S], seq 3149425568, win 64240, options [mss 1440,sackOK,TS val 2389178180 ecr 0,nop,wscale 7], length 0
+20:47:18.932756 IP COMP3134-2025.ssh > 52.169.25.196.46308: Flags [S.], seq 3461407069, ack 3149425569, win 65160, options [mss 1460,sackOK,TS val 241771071 ecr 2389178180,nop,wscale 7], length 0
+20:47:19.016911 IP 52.169.25.196.46308 > COMP3134-2025.ssh: Flags [.], ack 1, win 502, options [nop,nop,TS val 2389178265 ecr 241771071], length 0
+20:47:19.027825 IP COMP3134-2025.ssh > 52.169.25.196.46308: Flags [P.], seq 1:43, ack 1, win 510, options [nop,nop,TS val 241771166 ecr 2389178265], length 42: SSH: SSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.10
+20:47:19.028151 IP 52.169.25.196.46308 > COMP3134-2025.ssh: Flags [P.], seq 1:13, ack 1, win 502, options [nop,nop,TS val 2389178277 ecr 241771071], length 12: SSH: SSH-2.0-Go
+20:47:19.028171 IP COMP3134-2025.ssh > 52.169.25.196.46308: Flags [.], ack 13, win 510, options [nop,nop,TS val 241771167 ecr 2389178277], length 0
+20:47:19.109951 IP 52.169.25.196.46308 > COMP3134-2025.ssh: Flags [.], ack 43, win 502, options [nop,nop,TS val 2389178358 ecr 241771166], length 0
+20:47:19.110019 IP COMP3134-2025.ssh > 52.169.25.196.46308: Flags [P.], seq 43:1155, ack 13, win 510, options [nop,nop,TS val 241771249 ecr 2389178358], length 1112
+20:47:19.119875 IP 52.169.25.196.46308 > COMP3134-2025.ssh: Flags [P.], seq 13:1133, ack 43, win 502, options [nop,nop,TS val 2389178367 ecr 241771167], length 1120
+20:47:19.119959 IP COMP3134-2025.ssh > 52.169.25.196.46308: Flags [.], ack 1133, win 502, options [nop,nop,TS val 241771258 ecr 2389178367], length 0
+20:47:19.193109 IP 52.169.25.196.46308 > COMP3134-2025.ssh: Flags [P.], seq 1133:1181, ack 1155, win 524, options [nop,nop,TS val 2389178442 ecr 241771249], length 48
+20:47:19.193195 IP COMP3134-2025.ssh > 52.169.25.196.46308: Flags [.], ack 1181, win 502, options [nop,nop,TS val 241771332 ecr 2389178442], length 0
+20:47:19.198012 IP COMP3134-2025.ssh > 52.169.25.196.46308: Flags [P.], seq 1155:1759, ack 1181, win 502, options [nop,nop,TS val 241771337 ecr 2389178442], length 604
+20:47:19.299935 IP 52.169.25.196.46308 > COMP3134-2025.ssh: Flags [P.], seq 1181:1197, ack 1759, win 541, options [nop,nop,TS val 2389178549 ecr 241771337], length 16
+20:47:19.299935 IP 52.169.25.196.46308 > COMP3134-2025.ssh: Flags [P.], seq 1197:1249, ack 1759, win 541, options [nop,nop,TS val 2389178549 ecr 241771337], length 52
+20:47:19.300053 IP COMP3134-2025.ssh > 52.169.25.196.46308: Flags [.], ack 1249, win 502, options [nop,nop,TS val 241771439 ecr 2389178549], length 0
+20:47:19.300153 IP COMP3134-2025.ssh > 52.169.25.196.46308: Flags [P.], seq 1759:1811, ack 1249, win 502, options [nop,nop,TS val 241771439 ecr 2389178549], length 52
+20:47:19.406340 IP 52.169.25.196.46308 > COMP3134-2025.ssh: Flags [P.], seq 1249:1317, ack 1811, win 541, options [nop,nop,TS val 2389178655 ecr 241771439], length 68
+20:47:19.412241 IP COMP3134-2025.ssh > 52.169.25.196.46308: Flags [P.], seq 1811:1863, ack 1317, win 502, options [nop,nop,TS val 241771551 ecr 2389178655], length 52
+20:47:19.522974 IP 52.169.25.196.46308 > COMP3134-2025.ssh: Flags [P.], seq 1317:1401, ack 1863, win 541, options [nop,nop,TS val 2389178771 ecr 241771551], length 84
+20:47:19.566022 IP COMP3134-2025.ssh > 52.169.25.196.46308: Flags [.], ack 1401, win 502, options [nop,nop,TS val 241771705 ecr 2389178771], length 0
+20:47:19.689990 IP 165.22.251.45.48980 > COMP3134-2025.54321: Flags [S], seq 277668708, win 1024, length 0
+20:47:22.395506 IP COMP3134-2025.ssh > 52.169.25.196.46308: Flags [P.], seq 1863:1915, ack 1401, win 502, options [nop,nop,TS val 241774534 ecr 2389178771], length 52
+20:47:22.498988 IP 52.169.25.196.46308 > COMP3134-2025.ssh: Flags [F.], seq 1401, ack 1915, win 541, options [nop,nop,TS val 2389181748 ecr 241774534], length 0
+20:47:22.500518 IP COMP3134-2025.ssh > 52.169.25.196.46308: Flags [F.], seq 1915, ack 1402, win 502, options [nop,nop,TS val 241774639 ecr 2389181748], length 0
+20:47:22.584411 IP 52.169.25.196.46308 > COMP3134-2025.ssh: Flags [.], ack 1916, win 541, options [nop,nop,TS val 2389181833 ecr 241774639], length 0
+20:47:22.755121 IP 162.243.188.66.11788 > COMP3134-2025.ssh: Flags [.], ack 368, win 4978, options [nop,nop,TS val 3082577963 ecr 3964606928], length 0
+20:47:22.755170 IP COMP3134-2025.ssh > 162.243.188.66.11788: Flags [.], ack 1, win 501, options [nop,nop,TS val 3964622028 ecr 3082532640], length 0
+20:47:26.005389 IP 89.248.163.28.44669 > COMP3134-2025.4042: Flags [S], seq 1294146073, win 1024, length 0
+20:47:27.332410 IP 103.180.177.5.46754 > COMP3134-2025.ssh: Flags [S], seq 3976196252, win 64240, options [mss 1460,sackOK,TS val 3131121341 ecr 0,nop,wscale 7], length 0
+20:47:27.332505 IP COMP3134-2025.ssh > 103.180.177.5.46754: Flags [S.], seq 629585796, ack 3976196253, win 65160, options [mss 1460,sackOK,TS val 925226877 ecr 3131121341,nop,wscale 7], length 0
+20:47:27.583840 IP 103.180.177.5.46754 > COMP3134-2025.ssh: Flags [.], ack 1, win 502, options [nop,nop,TS val 3131121593 ecr 925226877], length 0
+20:47:27.584567 IP 103.180.177.5.46754 > COMP3134-2025.ssh: Flags [P.], seq 1:13, ack 1, win 502, options [nop,nop,TS val 3131121594 ecr 925226877], length 12: SSH: SSH-2.0-Go
+20:47:27.584602 IP COMP3134-2025.ssh > 103.180.177.5.46754: Flags [.], ack 13, win 509, options [nop,nop,TS val 925227129 ecr 3131121594], length 0
+20:47:27.594608 IP COMP3134-2025.ssh > 103.180.177.5.46754: Flags [P.], seq 1:43, ack 13, win 509, options [nop,nop,TS val 925227139 ecr 3131121594], length 42: SSH: SSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.10
+20:47:27.845298 IP 103.180.177.5.46754 > COMP3134-2025.ssh: Flags [.], ack 43, win 502, options [nop,nop,TS val 3131121855 ecr 925227139], length 0
+20:47:27.845368 IP COMP3134-2025.ssh > 103.180.177.5.46754: Flags [P.], seq 43:1155, ack 13, win 509, options [nop,nop,TS val 925227390 ecr 3131121855], length 1112
+20:47:27.845416 IP 103.180.177.5.46754 > COMP3134-2025.ssh: Flags [P.], seq 13:1133, ack 43, win 502, options [nop,nop,TS val 3131121855 ecr 925227139], length 1120
+20:47:27.886080 IP COMP3134-2025.ssh > 103.180.177.5.46754: Flags [.], ack 1133, win 501, options [nop,nop,TS val 925227431 ecr 3131121855], length 0
+20:47:28.102159 IP 103.180.177.5.46754 > COMP3134-2025.ssh: Flags [P.], seq 1133:1181, ack 1155, win 501, options [nop,nop,TS val 3131122112 ecr 925227390], length 48
+20:47:28.102221 IP COMP3134-2025.ssh > 103.180.177.5.46754: Flags [.], ack 1181, win 501, options [nop,nop,TS val 925227647 ecr 3131122112], length 0
+20:47:28.106845 IP COMP3134-2025.ssh > 103.180.177.5.46754: Flags [P.], seq 1155:1759, ack 1181, win 501, options [nop,nop,TS val 925227651 ecr 3131122112], length 604
+20:47:28.399017 IP 103.180.177.5.46754 > COMP3134-2025.ssh: Flags [.], ack 1759, win 501, options [nop,nop,TS val 3131122409 ecr 925227651], length 0
+20:47:28.425283 IP 103.180.177.5.46754 > COMP3134-2025.ssh: Flags [P.], seq 1181:1197, ack 1759, win 501, options [nop,nop,TS val 3131122435 ecr 925227651], length 16
+20:47:28.425283 IP 103.180.177.5.46754 > COMP3134-2025.ssh: Flags [P.], seq 1197:1249, ack 1759, win 501, options [nop,nop,TS val 3131122435 ecr 925227651], length 52
+20:47:28.425389 IP COMP3134-2025.ssh > 103.180.177.5.46754: Flags [.], ack 1249, win 501, options [nop,nop,TS val 925227970 ecr 3131122435], length 0
+20:47:28.425483 IP COMP3134-2025.ssh > 103.180.177.5.46754: Flags [P.], seq 1759:1811, ack 1249, win 501, options [nop,nop,TS val 925227970 ecr 3131122435], length 52
+20:47:28.676172 IP 103.180.177.5.46754 > COMP3134-2025.ssh: Flags [.], ack 1811, win 501, options [nop,nop,TS val 3131122686 ecr 925227970], length 0
+20:47:28.676222 IP 103.180.177.5.46754 > COMP3134-2025.ssh: Flags [P.], seq 1249:1317, ack 1811, win 501, options [nop,nop,TS val 3131122686 ecr 925227970], length 68
+20:47:28.682660 IP COMP3134-2025.ssh > 103.180.177.5.46754: Flags [P.], seq 1811:1863, ack 1317, win 501, options [nop,nop,TS val 925228227 ecr 3131122686], length 52
+20:47:28.933566 IP 103.180.177.5.46754 > COMP3134-2025.ssh: Flags [P.], seq 1317:1417, ack 1863, win 501, options [nop,nop,TS val 3131122943 ecr 925228227], length 100
+20:47:28.974031 IP COMP3134-2025.ssh > 103.180.177.5.46754: Flags [.], ack 1417, win 501, options [nop,nop,TS val 925228519 ecr 3131122943], length 0
+20:47:32.119140 IP COMP3134-2025.ssh > 103.180.177.5.46754: Flags [P.], seq 1863:1915, ack 1417, win 501, options [nop,nop,TS val 925231664 ecr 3131122943], length 52
+20:47:32.370699 IP 103.180.177.5.46754 > COMP3134-2025.ssh: Flags [F.], seq 1417, ack 1915, win 501, options [nop,nop,TS val 3131126380 ecr 925231664], length 0
+20:47:32.371993 IP COMP3134-2025.ssh > 103.180.177.5.46754: Flags [F.], seq 1915, ack 1418, win 501, options [nop,nop,TS val 925231917 ecr 3131126380], length 0
+20:47:32.622822 IP 103.180.177.5.46754 > COMP3134-2025.ssh: Flags [.], ack 1916, win 501, options [nop,nop,TS val 3131126632 ecr 925231917], length 0
+20:47:37.858905 IP 162.243.188.66.11788 > COMP3134-2025.ssh: Flags [.], ack 368, win 4978, options [nop,nop,TS val 3082593067 ecr 3964622028], length 0
+20:47:37.858956 IP COMP3134-2025.ssh > 162.243.188.66.11788: Flags [.], ack 1, win 501, options [nop,nop,TS val 3964637131 ecr 3082532640], length 0
+20:47:39.919341 IP 20.219.1.155.59690 > COMP3134-2025.ssh: Flags [S], seq 2160074358, win 64240, options [mss 1440,sackOK,TS val 2596246262 ecr 0,nop,wscale 7], length 0
+20:47:39.919426 IP COMP3134-2025.ssh > 20.219.1.155.59690: Flags [S.], seq 479494433, ack 2160074359, win 65160, options [mss 1460,sackOK,TS val 2404698409 ecr 2596246262,nop,wscale 7], length 0
+20:47:40.118988 IP 20.219.1.155.59690 > COMP3134-2025.ssh: Flags [.], ack 1, win 502, options [nop,nop,TS val 2596246462 ecr 2404698409], length 0
+20:47:40.118988 IP 20.219.1.155.59690 > COMP3134-2025.ssh: Flags [P.], seq 1:23, ack 1, win 502, options [nop,nop,TS val 2596246462 ecr 2404698409], length 22: SSH: SSH-2.0-libssh_0.9.6
+20:47:40.119073 IP COMP3134-2025.ssh > 20.219.1.155.59690: Flags [.], ack 23, win 509, options [nop,nop,TS val 2404698609 ecr 2596246462], length 0
+20:47:40.129366 IP COMP3134-2025.ssh > 20.219.1.155.59690: Flags [P.], seq 1:43, ack 23, win 509, options [nop,nop,TS val 2404698619 ecr 2596246462], length 42: SSH: SSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.10
+20:47:40.329931 IP 20.219.1.155.59690 > COMP3134-2025.ssh: Flags [.], ack 43, win 502, options [nop,nop,TS val 2596246673 ecr 2404698619], length 0
+20:47:40.329990 IP COMP3134-2025.ssh > 20.219.1.155.59690: Flags [P.], seq 43:1155, ack 23, win 509, options [nop,nop,TS val 2404698820 ecr 2596246673], length 1112
+20:47:40.330235 IP 20.219.1.155.59690 > COMP3134-2025.ssh: Flags [P.], seq 23:999, ack 43, win 502, options [nop,nop,TS val 2596246673 ecr 2404698619], length 976
+20:47:40.331462 IP 153.210.203.35.bc.googleusercontent.com.56593 > COMP3134-2025.1922: Flags [S], seq 398722909, win 65535, options [mss 1460], length 0
+20:47:40.374014 IP COMP3134-2025.ssh > 20.219.1.155.59690: Flags [.], ack 999, win 502, options [nop,nop,TS val 2404698864 ecr 2596246673], length 0
+20:47:40.531242 IP 20.219.1.155.59690 > COMP3134-2025.ssh: Flags [.], ack 1155, win 501, options [nop,nop,TS val 2596246874 ecr 2404698820], length 0
+20:47:40.571533 IP 20.219.1.155.59690 > COMP3134-2025.ssh: Flags [P.], seq 999:1047, ack 1155, win 501, options [nop,nop,TS val 2596246914 ecr 2404698864], length 48
+20:47:40.571586 IP COMP3134-2025.ssh > 20.219.1.155.59690: Flags [.], ack 1047, win 502, options [nop,nop,TS val 2404699061 ecr 2596246914], length 0
+20:47:40.577719 IP COMP3134-2025.ssh > 20.219.1.155.59690: Flags [P.], seq 1155:1687, ack 1047, win 502, options [nop,nop,TS val 2404699067 ecr 2596246914], length 532
+20:47:40.774012 IP 20.219.1.155.59690 > COMP3134-2025.ssh: Flags [.], ack 1687, win 501, options [nop,nop,TS val 2596247117 ecr 2404699067], length 0
+20:47:40.774096 IP 20.219.1.155.59690 > COMP3134-2025.ssh: Flags [P.], seq 1047:1063, ack 1687, win 501, options [nop,nop,TS val 2596247117 ecr 2404699067], length 16
+20:47:40.818032 IP COMP3134-2025.ssh > 20.219.1.155.59690: Flags [.], ack 1063, win 502, options [nop,nop,TS val 2404699308 ecr 2596247117], length 0
+20:47:41.014140 IP 20.219.1.155.59690 > COMP3134-2025.ssh: Flags [P.], seq 1063:1115, ack 1687, win 501, options [nop,nop,TS val 2596247357 ecr 2404699308], length 52
+20:47:41.014190 IP COMP3134-2025.ssh > 20.219.1.155.59690: Flags [.], ack 1115, win 502, options [nop,nop,TS val 2404699504 ecr 2596247357], length 0
+20:47:41.014295 IP COMP3134-2025.ssh > 20.219.1.155.59690: Flags [P.], seq 1687:1739, ack 1115, win 502, options [nop,nop,TS val 2404699504 ecr 2596247357], length 52
+20:47:41.214831 IP 20.219.1.155.59690 > COMP3134-2025.ssh: Flags [.], ack 1739, win 501, options [nop,nop,TS val 2596247558 ecr 2404699504], length 0
+20:47:41.214891 IP 20.219.1.155.59690 > COMP3134-2025.ssh: Flags [P.], seq 1115:1199, ack 1739, win 501, options [nop,nop,TS val 2596247558 ecr 2404699504], length 84
+20:47:41.258037 IP COMP3134-2025.ssh > 20.219.1.155.59690: Flags [.], ack 1199, win 502, options [nop,nop,TS val 2404699748 ecr 2596247558], length 0
+20:47:42.350421 IP 185.94.111.1.45363 > COMP3134-2025.5683: UDP, length 21
+20:47:43.955408 IP COMP3134-2025.ssh > 20.219.1.155.59690: Flags [P.], seq 1739:1791, ack 1199, win 502, options [nop,nop,TS val 2404702445 ecr 2596247558], length 52
+20:47:44.161683 IP 20.219.1.155.59690 > COMP3134-2025.ssh: Flags [P.], seq 1199:1251, ack 1791, win 501, options [nop,nop,TS val 2596250505 ecr 2404702445], length 52
+20:47:44.161684 IP 20.219.1.155.59690 > COMP3134-2025.ssh: Flags [F.], seq 1251, ack 1791, win 501, options [nop,nop,TS val 2596250505 ecr 2404702445], length 0
+20:47:44.161744 IP COMP3134-2025.ssh > 20.219.1.155.59690: Flags [.], ack 1251, win 502, options [nop,nop,TS val 2404702651 ecr 2596250505], length 0
+20:47:44.162975 IP COMP3134-2025.ssh > 20.219.1.155.59690: Flags [F.], seq 1791, ack 1252, win 502, options [nop,nop,TS val 2404702652 ecr 2596250505], length 0
+20:47:44.362918 IP 20.219.1.155.59690 > COMP3134-2025.ssh: Flags [.], ack 1792, win 501, options [nop,nop,TS val 2596250706 ecr 2404702652], length 0
+20:47:51.282088 IP 52.169.25.196.54392 > COMP3134-2025.ssh: Flags [S], seq 1776856445, win 64240, options [mss 1440,sackOK,TS val 2389210530 ecr 0,nop,wscale 7], length 0
+20:47:51.282167 IP COMP3134-2025.ssh > 52.169.25.196.54392: Flags [S.], seq 4179392463, ack 1776856446, win 65160, options [mss 1460,sackOK,TS val 241803421 ecr 2389210530,nop,wscale 7], length 0
+20:47:51.363235 IP 52.169.25.196.54392 > COMP3134-2025.ssh: Flags [.], ack 1, win 502, options [nop,nop,TS val 2389210612 ecr 241803421], length 0
+20:47:51.375770 IP COMP3134-2025.ssh > 52.169.25.196.54392: Flags [P.], seq 1:43, ack 1, win 510, options [nop,nop,TS val 241803514 ecr 2389210612], length 42: SSH: SSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.10
+20:47:51.435906 IP 52.169.25.196.54392 > COMP3134-2025.ssh: Flags [P.], seq 1:13, ack 1, win 502, options [nop,nop,TS val 2389210685 ecr 241803421], length 12: SSH: SSH-2.0-Go
+20:47:51.435969 IP COMP3134-2025.ssh > 52.169.25.196.54392: Flags [.], ack 13, win 510, options [nop,nop,TS val 241803574 ecr 2389210685], length 0
+20:47:51.460917 IP 52.169.25.196.54392 > COMP3134-2025.ssh: Flags [.], ack 43, win 502, options [nop,nop,TS val 2389210710 ecr 241803514], length 0
+20:47:51.460985 IP COMP3134-2025.ssh > 52.169.25.196.54392: Flags [P.], seq 43:1155, ack 13, win 510, options [nop,nop,TS val 241803600 ecr 2389210710], length 1112
+20:47:51.541667 IP 52.169.25.196.54392 > COMP3134-2025.ssh: Flags [.], ack 1155, win 524, options [nop,nop,TS val 2389210790 ecr 241803600], length 0
+tcpdump: pcap_loop: truncated dump file; tried to read 1186 captured bytes, only got 161
+root@COMP3134-2025:~# 
