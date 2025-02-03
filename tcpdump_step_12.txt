@@ -1,0 +1,6 @@
+root@COMP3134-2025:~# tcpdump -i eth0 dst 50.116.66.139
+tcpdump: verbose output suppressed, use -v[v]... for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), snapshot length 262144 bytes
+^Z
+[1]+  Stopped                 tcpdump -i eth0 dst 50.116.66.139
+root@COMP3134-2025:~# 
