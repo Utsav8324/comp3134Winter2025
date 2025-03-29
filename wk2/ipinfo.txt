@@ -1,0 +1,61 @@
+IP addresses for google.com
+Our DNS servers responded with these IP addresses when we queried it for the domain google.com. Some DNS servers may return different IP addresses based on your location.
+
+IP address
+74.125.200.100
+74.125.200.139
+74.125.200.101
+74.125.200.113
+74.125.200.138
+74.125.200.102
+2404:6800:4003:c1a::8b
+2404:6800:4003:c1a::71
+2404:6800:4003:c1a::66
+2404:6800:4003:c1a::8a
+
+IP addresses for example.com
+Our DNS servers responded with these IP addresses when we queried it for the domain example.com. Some DNS servers may return different IP addresses based on your location.
+
+IP address
+96.7.128.198
+23.192.228.80
+23.192.228.84
+23.215.0.138
+23.215.0.136
+96.7.128.175
+2600:1408:ec00:36::1736:7f24
+2600:1406:3a00:21::173e:2e66
+2600:1406:bc00:53::b81e:94c8
+2600:1406:bc00:53::b81e:94ce
+2600:1406:3a00:21::173e:2e65
+2600:1408:ec00:36::1736:7f31
+Question and response
+
+IP addresses for amazon.com
+Our DNS servers responded with these IP addresses when we queried it for the domain amazon.com. Some DNS servers may return different IP addresses based on your location.
+
+IP address
+205.251.242.103
+52.94.236.248
+54.239.28.85
+
+IP addresses for github.com
+Our DNS servers responded with these IP addresses when we queried it for the domain github.com. Some DNS servers may return different IP addresses based on your location.
+
+IP address
+20.205.243.166
+
+IP addresses for microsoft.com
+Our DNS servers responded with these IP addresses when we queried it for the domain microsoft.com. Some DNS servers may return different IP addresses based on your location.
+
+IP address
+20.231.239.246
+20.236.44.162
+20.70.246.20
+20.76.201.171
+20.112.250.133
+2603:1020:201:10::10f
+2603:1010:3:3::5b
+2603:1030:b:3::152
+2603:1030:20e:3::23c
+2603:1030:c02:8::14

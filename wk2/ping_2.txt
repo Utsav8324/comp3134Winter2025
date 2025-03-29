@@ -1,0 +1,10 @@
+Pinging 159.89.114.45 with 32 bytes of data:
+Reply from 159.89.114.45: bytes=32 time=25ms TTL=57
+Reply from 159.89.114.45: bytes=32 time=11ms TTL=57
+Reply from 159.89.114.45: bytes=32 time=9ms TTL=57
+Reply from 159.89.114.45: bytes=32 time=10ms TTL=57
+
+Ping statistics for 159.89.114.45:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 9ms, Maximum = 25ms, Average = 13ms

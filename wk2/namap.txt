@@ -1,0 +1,26 @@
+Starting Nmap 7.80 ( https://nmap.org ) at 2025-03-05 19:33 UTC
+Nmap scan report for lamp-ubuntu-s-1vcpu-1gb-tor1-01 (159.89.114.45)
+Host is up (0.0000060s latency).
+Not shown: 997 closed ports
+PORT   STATE SERVICE
+22/tcp open  ssh
+25/tcp open  smtp
+80/tcp open  http
+
+Nmap done: 1 IP address (1 host up) scanned in 0.06 seconds
+Starting Nmap 7.80 ( https://nmap.org ) at 2025-03-05 19:34 UTC
+Nmap scan report for lamp-ubuntu-s-1vcpu-1gb-tor1-01 (159.89.114.45)
+Host is up (0.000073s latency).
+
+PORT   STATE SERVICE
+80/tcp open  http
+
+Nmap done: 1 IP address (1 host up) scanned in 0.07 seconds
+Starting Nmap 7.80 ( https://nmap.org ) at 2025-03-05 19:34 UTC
+Nmap scan report for lamp-ubuntu-s-1vcpu-1gb-tor1-01 (159.89.114.45)
+Host is up (0.000046s latency).
+
+PORT   STATE SERVICE
+80/tcp open  http
+
+Nmap done: 1 IP address (1 host up) scanned in 0.04 seconds

@@ -1,0 +1,2 @@
+The browser displays the contents of directories outside the intended scope. 
+This could lead to the exposure of sensitive system files, like `/etc/passwd`, if the directory traversal is not mitigated.
