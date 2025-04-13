@@ -1,0 +1,23 @@
+Difference Between `strip_tags()` and `htmlentities()`:
+
+1️⃣ **`strip_tags()`**
+   - Removes **HTML and PHP tags** from user input.
+   - Example:
+     ```php
+     $input = "<script>alert('hello')</script>";
+     echo strip_tags($input); // Output: alert('hello')
+     ```
+   - **Limitation:** Does not encode special characters, meaning **some attacks may still work**.
+
+2️⃣ **`htmlentities()`**
+   - Converts **all special characters** into HTML entities.
+   - Example:
+     ```php
+     $input = "<script>alert('hello')</script>";
+     echo htmlentities($input); // Output: &lt;script&gt;alert(&#039;hello&#039;)&lt;/script&gt;
+     ```
+   - **Advantage:** Fully prevents **XSS attacks** because JavaScript **cannot execute**.
+
+✅ **Which is better?**
+- `htmlentities()` is **more secure** for preventing **XSS attacks**.
+- `strip_tags()` is useful for cleaning input but **should be combined** with other security measures.

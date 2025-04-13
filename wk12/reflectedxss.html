@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Reflected XSS</title>
+</head>
+<body>
+    <h1>Reflected XSS Demo</h1>
+    <form id="xssForm">
+        <input type="text" id="xssInput" placeholder="Type something..." />
+        <input type="submit" value="Submit" />
+    </form>
+    <div id="output"></div>
+
+    <script>
+        document.getElementById("xssForm").addEventListener("submit", function(e) {
+            e.preventDefault(); // prevent page reload
+            const input = document.getElementById("xssInput").value;
+            document.getElementById("output").innerHTML = input;
+        });
+    </script>
+</body>
+</html>

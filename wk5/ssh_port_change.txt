@@ -1,0 +1,12 @@
+root@comp3134-Winter2025:~# sudo systemctl restart ssh
+root@comp3134-Winter2025:~# ssh -p 2222 root@your_droplet_ip
+ssh: Could not resolve hostname your_droplet_ip: Temporary failure in name resolution
+root@comp3134-Winter2025:~# ssh -p 2222 root@159.89.118.54
+The authenticity of host '[159.89.118.54]:2222 ([159.89.118.54]:2222)' can't be established.
+ED25519 key fingerprint is SHA256:ZIAWgLrB4kefDU/Wll9XFDeng67o6Yaw8RkTN8HQa88.
+This key is not known by any other names
+Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
+Warning: Permanently added '[159.89.118.54]:2222' (ED25519) to the list of known hosts.
+root@159.89.118.54's password:
+Connection closed by 159.89.118.54 port 2222
+root@comp3134-Winter2025:~#

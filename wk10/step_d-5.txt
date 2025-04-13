@@ -1,0 +1,18 @@
+(%2e%2e%2f is the URL-encoded version of ../)
+The server still processes this input and displays files and directories outside the intended web root (/var/www/html/).
+
+Sensitive Data Exposed:
+
+This confirms that the application does not sanitize input, allowing directory traversal even when encoded.
+An attacker can use this encoding trick to bypass weak security measures that only block plain ../.
+If combined with additional encoding (%252e%252e%252f for double encoding), it could evade security filters.
+Just like Step D-4, it could expose files like:
+/etc/passwd (User accounts)
+/etc/shadow (Password hashes)
+/var/log/auth.log (Login attempts)
+/var/www/html/config.php (Might contain database credentials)
+Potential Risk:
+
+If the application has file inclusion vulnerabilities, an attacker could read arbitrary files from the system.
+Advanced attacks might allow remote code execution if a writable directory is accessible.
+Encoding techniques can bypass security filters, making this attack harder to detect in logs.

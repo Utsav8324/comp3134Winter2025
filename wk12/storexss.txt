@@ -1,0 +1,1 @@
+The file storedxss.txt contains malicious JavaScript, and storexss.php outputs it without sanitization. This allows stored XSS attacks, where malicious scripts are executed whenever the page loads. It can lead to unauthorized actions or credential theft.

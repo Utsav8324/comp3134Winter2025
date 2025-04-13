@@ -1,0 +1,11 @@
+The following security measures have been implemented:
+
+1️⃣ **Converted all visible HTML comments into PHP comments**:
+   - HTML comments (`<!-- -->`) are visible in "View Page Source".
+   - PHP comments (`<?php // comment ?>`) **do not appear in the source code**.
+
+2️⃣ **Why this is important**:
+   - Prevents attackers from finding sensitive information (e.g., database credentials, API keys).
+   - Ensures **no internal details** are leaked to the client-side.
+
+✅ This fix makes the

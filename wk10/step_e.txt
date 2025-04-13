@@ -1,0 +1,15 @@
+The following security measures have been implemented:
+
+1️⃣ **Prevent directory traversal**: 
+   - Used `basename()` to ensure only the last part of the path is accessed.
+   - This stops attackers from using `../` or encoded values (`%2e%2e%2f`).
+
+2️⃣ **Check if the path exists**:
+   - Used `file_exists()` to verify the requested directory exists.
+   - If the directory is invalid, access is denied.
+
+3️⃣ **Only allow directories, not files**:
+   - Used `is_dir()` to ensure the requested path is a directory.
+   - This prevents attackers from reading sensitive files like `/etc/passwd`.
+
+✅ These fixes prevent directory traversal attacks and unauthorized file access.

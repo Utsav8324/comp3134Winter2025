@@ -1,0 +1,13 @@
+the page lists files and directories outside the web root (/var/www/html/), potentially exposing sensitive system files.
+
+Sensitive Data Exposed:
+
+Users can view files and directories outside the intended scope, which may include configuration files, logs, and even password files.
+If the server has weak permissions, attackers might be able to access files like:
+/etc/passwd (User information)
+/etc/shadow (Password hashes)
+/var/log/auth.log (Authentication logs)
+Potential Risk:
+
+Hackers could extract sensitive information and use it for privilege escalation or lateral movement within the system.
+If the PHP script allows file reading, an attacker could retrieve confidential data by modifying the query string (e.g., q=../../../../../etc/passwd).

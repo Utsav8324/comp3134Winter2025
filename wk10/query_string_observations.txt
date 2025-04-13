@@ -1,0 +1,20 @@
+Observations on Query String and Input Handling:
+
+1️⃣ **Test 1: Valid English Word**  
+   - Entered: `cybersecurity`  
+   - Observation: The website successfully displayed the definition, pronunciation, and related words. The query string in the URL remained unchanged.
+
+2️⃣ **Test 2: Invalid English Word**  
+   - Entered: `https://www.dictionary.com/browse/fakewordxyz`  
+   - Observation: The website displayed a message stating that no definition was found. It suggested alternative words and offered a search bar for correction.
+
+3️⃣ **Test 3: XSS Injection in Form**  
+   - Entered: `<script>alert('hello')</script>`  
+   - Observation: The input field accepted the text, but upon submission, the script was **not executed**. The website likely **sanitized** or **blocked** HTML/JavaScript code.
+
+4️⃣ **Test 4: XSS Injection in URL Query String**  
+   - Entered: `https://www.dictionary.com/browse/<script>alert('hello')</script>`  
+   - Observation: The website did not execute the JavaScript code. Instead, it displayed an error page or ignored the script input. This indicates **proper input filtering** is in place.
+
+✅ Conclusion:  
+The production site has **proper security measures** to prevent XSS attacks and invalid query strings.
