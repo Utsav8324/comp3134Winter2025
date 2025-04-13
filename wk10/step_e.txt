@@ -1,5 +1,0 @@
-To mitigate the directory traversal vulnerability:
-- I used the `basename()` function to ensure users cannot traverse directories.
-- I implemented `realpath()` and `file_exists()` to ensure that the path is valid and within the allowed directory.
-- I added a check to block filenames with a dot (.) to prevent access to sensitive files.
- 

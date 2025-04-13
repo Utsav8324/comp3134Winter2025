@@ -1,2 +1,0 @@
-The browser shows an error message indicating that the directory "hello" does not exist. 
-The page does not reveal any sensitive information as there is no directory named "hello" in the current location.

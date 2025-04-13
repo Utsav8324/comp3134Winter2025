@@ -1,2 +1,0 @@
-The browser allows directory traversal via URL encoding, potentially exposing sensitive directories outside the intended scope.
-This reinforces the importance of validating user input to prevent unauthorized access to files.
